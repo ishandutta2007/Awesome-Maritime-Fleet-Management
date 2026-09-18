@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b192c" />
+      <stop offset="50%" stop-color="#1e3e62" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#008b8b" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#00d2ff" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#004080" stop-opacity="0.5" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#00d2ff" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" rx="15" fill="url(#bgGrad)" />
+
+  <!-- Animated Radar / Waves in Background -->
+  <g stroke="url(#waveGrad)" stroke-width="1.5" fill="none">
+    <circle cx="1000" cy="150" r="80">
+      <animate attributeName="r" values="40;160;40" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="stroke-opacity" values="0.8;0.1;0.8" dur="8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1000" cy="150" r="120">
+      <animate attributeName="r" values="80;200;80" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="stroke-opacity" values="0.6;0.0;0.6" dur="8s" repeatCount="indefinite" />
+    </circle>
+    <line x1="840" y1="150" x2="1160" y2="150" stroke="#00d2ff" stroke-opacity="0.3" stroke-dasharray="4,4" />
+    <line x1="1000" y1="30" x2="1000" y2="270" stroke="#00d2ff" stroke-opacity="0.3" stroke-dasharray="4,4" />
+  </g>
+
+  <!-- Dynamic Animated Ocean Wave Lines (Background Layer) -->
+  <path d="M 0 220 Q 300 180 600 220 T 1200 220 L 1200 300 L 0 300 Z" fill="url(#waveGrad)" opacity="0.3">
+    <animateTransform attributeName="transform" type="translate" values="0 0; -100 0; 0 0" dur="10s" repeatCount="indefinite" />
+  </path>
+  <path d="M 0 240 Q 300 270 600 240 T 1200 240 L 1200 300 L 0 300 Z" fill="url(#waveGrad)" opacity="0.5">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 100 0; 0 0" dur="7s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Ship Hull Outline Silhouette (Right Background) -->
+  <path d="M 850 200 L 1050 200 L 1100 170 L 1080 170 L 1070 150 L 980 150 L 980 170 L 850 170 Z" fill="#00d2ff" opacity="0.15" />
+
+  <!-- Foreground Title and Subtitle -->
+  <g transform="translate(70, 110)">
+    <!-- Ship Icon -->
+    <path d="M 0 -35 L 20 -35 L 25 -15 L 45 -15 L 35 15 L -15 15 L -25 -15 L 0 -15 Z" fill="#00d2ff" filter="url(#glow)" />
+    <rect x="5" y="-50" width="4" height="15" fill="#00d2ff" />
+    <circle cx="7" cy="-55" r="3" fill="#ff4500" />
+    
+    <text x="60" y="0" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="800" fill="url(#textGrad)" filter="url(#glow)">
+      Awesome Maritime Fleet Management
+    </text>
+    <text x="60" y="45" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#a0aec0">
+      🚢 Curated SaaS Platforms &amp; Open-Source Projects for Technical &amp; Operational Fleet Management
+    </text>
+    <text x="60" y="80" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#00d2ff" letter-spacing="1">
+      PLANNED MAINTENANCE (PMS) • QHSE • CREWING • PROCUREMENT • VESSEL ANALYTICS
+    </text>
+  </g>
+</svg>
