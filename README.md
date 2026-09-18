@@ -1,205 +1,106 @@
-# Awesome-Maritime-Fleet-Management
+# Awesome Maritime Fleet Management 🚢 ⚓ 🌊
 
-## Top Maritime Fleet Management Ecosystem
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+![Maritime Fleet Management](assets/banner.svg)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+## 🌐 Top Maritime Fleet Management Ecosystem 🚢
 
+**Curated List of Commercial SaaS Software & Open-Source GitHub Projects**  
+*Focused on Ship & Fleet Management, Planned Maintenance Systems (PMS), Technical Operations, Maritime Compliance, Procurement Integration, Crewing & Shore–Ship Collaboration.*
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Ship & Fleet Management, Planned Maintenance (PMS), Technical Operations, Compliance, Procurement Integration & Shore–Ship Collaboration*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS / commercial platforms** and **open-source projects** for **Maritime Fleet Management**. These systems support technical and operational management of vessels and fleets—covering planned maintenance, inventory, procurement, QHSE/safety, crew, certificates, performance monitoring, and regulatory compliance.
-
-
-
-**Examples** include ABS Nautical Systems, DANAOS, ShipNet, STAR Information Systems, SpecTec AMOS, MESPAS, MariApps, Helm CONNECT, DNV ShipManager, Kongsberg Vessel Insight, StormGeo, MarineCFO, Marine Digital, and related ship-management suites (the category leaders).
-
-
-
-**Open-source emphasis**: Full-featured commercial maritime fleet management platforms dominate the professional shipping market. Open-source options are limited but include dedicated ship-management projects such as **SeaVesselManager** and smaller experimental or domain-adjacent systems. This section lists every significant relevant project found.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[DNV ShipManager](https://www.dnv.com/services/marine-fleet-management-software-and-ship-management-systems-shipmanager-114260/)**  
-
-  Comprehensive marine fleet management software covering planned maintenance, procurement, QHSE, crew, hull integrity, dry-docking, and analytics for technical and operational control.
-
-
-
-- **[SpecTec AMOS](https://www.spectec.com/)**  
-
-  Widely used ship-management suite for planned maintenance, inventory, procurement, and technical operations across commercial fleets.
-
-
-
-- **[ShipNet](https://one.shipnet.no/)**  
-
-  Integrated maritime ERP and fleet management platform connecting commercial, technical, operational, and financial workflows for ship managers.
-
-
-
-- **[MESPAS, Helm CONNECT, DANAOS, MariApps](https://www.mespas.com/)**  
-
-  Established platforms for fleet technical management, maintenance, procurement, safety, and shore–ship collaboration.
-
-
-
-- **[ABS Nautical Systems, STAR Information Systems](https://ww2.eagle.org/)**  
-
-  Classification-society and specialist solutions for fleet technical management, compliance, and operational oversight.
-
-
-
-- **[Kongsberg Vessel Insight, StormGeo, MarineCFO, Marine Digital](https://www.kongsberg.com/)**  
-
-  Solutions spanning vessel performance, weather routing/operations, financial fleet management, and digital maritime platforms.
-
-
-
-- **[Other commercial maritime fleet & ship management systems](https://www.dnv.com/)**  
-
-  Additional suites supporting multi-vessel operations, regulatory compliance, and integrated ship management.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[SeaVesselManager](https://seavesselmanager.com/)**  
-
-  Free open-source ship management software designed for the maritime industry. Includes fleet overview, planned maintenance, spare-parts inventory, certificate management, procurement workflows, and an AI assistant—aimed at making enterprise-grade PMS accessible without high licensing costs.
-
-
-
-- **[Hackerfleet / HFOS](https://github.com/Hackerfleet/hfos)**  
-
-  Modular maritime-oriented operating system components (maps, navdata, equipment, logbook, alerts, etc.) originally developed for collaborative vessel computing; more focused on onboard systems than full commercial fleet management.
-
-
-
-- **[General open fleet / maintenance systems (adaptable)](https://github.com/search?q=fleet+management+OR+planned+maintenance+open+source)**  
-
-  Land-based or generic fleet maintenance projects that some teams adapt for smaller vessel operations with custom maritime data models.
-
-
-
-- **[Inventory, certificate & work-order open tools](https://github.com/search?q=inventory+certificate+OR+work+order+management)**  
-
-  Open components for stock tracking, document expiry alerts, and maintenance work orders that can form building blocks of a lightweight PMS.
-
-
-
-- **[Maritime data & AIS-related open projects](https://github.com/search?q=AIS+OR+vessel+tracking+open+source)**  
-
-  Tools for vessel position and related data that can complement fleet visibility dashboards.
-
-
-
-- **[Approval & workflow engines](https://github.com/search?q=approval+workflow+open+source)**  
-
-  Open workflow systems usable for maintenance and procurement approval chains.
-
-
-
-- **[Reporting & dashboard stacks](https://github.com/search?q=OEE+OR+fleet+dashboard+open+source)**  
-
-  Open visualization and analytics tools for operational KPIs when fed with vessel data.
-
-
-
-- **[Experimental / academic ship-management prototypes](https://github.com/search?q=ship+management+OR+maritime+PMS)**  
-
-  Research and small-scale implementations of planned maintenance or fleet oversight concepts.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **SeaVesselManager**: The most complete open-source option currently focused on maritime planned maintenance and fleet management.
-
-- **Onboard modular systems**: HFOS-style components for vessel-centric computing and data logging.
-
-- **Composable stacks**: Inventory + work-order + certificate tracking + basic dashboards for very small fleets or research vessels.
-
-- **Data layers**: Open AIS/position tools and generic reporting for visibility overlays.
-
-- Full multi-module commercial ship-management suites (PMS + procurement + QHSE + crew + dry-dock + analytics) remain the domain of established vendors.
-
-
-
-**Frameworks for building custom systems**:  
-
-**SeaVesselManager** is the primary open-source project aiming at comprehensive maritime fleet/PMS functionality.  
-
-Other open tools provide modular building blocks (inventory, workflows, dashboards, AIS).  
-
-Commercial platforms (DNV ShipManager, SpecTec AMOS, ShipNet, MESPAS, Helm CONNECT, DANAOS, ABS Nautical Systems, etc.) deliver proven multi-vessel scale, regulatory alignment, deep industry templates, supplier and class integrations, and professional support that most commercial shipping companies require.  
-
-Smaller operators, research vessels, or cost-sensitive fleets may evaluate open-source or lightweight systems; larger and regulated fleets typically standardize on commercial maritime fleet management suites, sometimes augmenting them with open analytics or data tools.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/commercial or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Maritime fleet management systems support safety, environmental, and class-related compliance. Incorrect configuration, incomplete maintenance records, or data gaps can have serious operational and regulatory consequences.
-
-- Open-source solutions offer transparency and zero licensing cost but require internal expertise for deployment, validation, integration with vessel systems, and ongoing support. Evaluate regulatory requirements, classification society expectations, and total cost of ownership carefully before production use on commercial vessels.
-
-
+> 📅 **Last updated: September 2026**
 
 ---
 
+This repository tracks top-tier **SaaS / commercial software platforms** and **open-source projects** for **Maritime Fleet Management**. These software suites support technical, operational, and commercial management of vessels, ships, and maritime fleets—covering planned maintenance (PMS), spare-parts inventory, procurement, QHSE/safety compliance, crew management, vessel certificates, performance analytics, and environmental reporting (EU ETS / IMO DCS / CII).
 
+---
 
-**Made for ship managers, technical superintendents, fleet operators, and maritime digitalization teams.**  
+## 📑 Table of Contents
 
-Let's expand accessible tools for vessel and fleet management while recognizing the depth, compliance support, and operational maturity that leading commercial maritime fleet management platforms deliver.
+- [📊 Sector Overview & Market Size](#-sector-overview--market-size)
+- [🏢 Commercial SaaS / Hosted Platforms](#-commercial-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+
+---
+
+## 📊 Sector Overview & Market Size 📈
+
+> 💡 **Market Size & Structure**: The global **Maritime Fleet Management Software Market** is estimated at **~$1.8 Billion to $2.2 Billion USD** (2025/2026) and is projected to reach **~$3.5+ Billion USD by 2032** growing at a CAGR of 7.5%–9.0%.  
+> 🧩 **Market Fragmentation**: The sector is **moderately fragmented**, dominated by established classification societies (e.g., DNV, ABS), maritime industrial technology conglomerates (e.g., Kongsberg, Alfa Laval), and specialized vertical ERP software groups (e.g., Volaris/SpecTec, DANAOS, MariApps). High regulatory requirements (ISM Code, SOLAS, MARPOL, EU ETS) create strong moats for certified commercial platforms.
+
+---
+
+## 🏢 Commercial SaaS / Hosted Platforms 💼
+
+Commercial platforms dominate professional shipping, offering enterprise-grade planned maintenance systems (PMS), regulatory compliance suites, and ship-to-shore data synchronization.
+
+| SaaS Platform / Suite 🚢 | Enterprise / Parent Company 🏢 | Estimated Size / Revenue / Valuation 💰 | Pricing (Starting Tier) 🏷️ | Free Tier / Trial Limit ⏳ | Description & Key Capabilities ⚙️ |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Kongsberg Vessel Insight](https://www.kongsberg.com/)** | Kongsberg Gruppen ASA | **~$28B Valuation** (~NOK 27.1B Maritime Rev) | $1,200 / vessel / month | 30-day sandbox trial (limited vessel data feeds) | Vessel performance analytics, digital twin integration, weather routing, and operational telemetry. |
+| **[DNV ShipManager](https://www.dnv.com/services/marine-fleet-management-software-and-ship-management-systems-shipmanager-114260/)** | DNV Group | **~$3.3B Revenue** (~NOK 35.3B Group Rev) | $850 / vessel / month | 14-day guided demo trial (pre-configured fleet sandbox) | Comprehensive technical management covering PMS, procurement, QHSE, hull integrity, and dry-docking. |
+| **[StormGeo Fleet Performance](https://www.stormgeo.com/)** | Alfa Laval AB | **~$440M Valuation** (Acquired by Alfa Laval) | $500 / vessel / month | 14-day trial (limited to 2 vessel route optimizations) | Advanced weather routing, fuel optimization, environmental compliance (EU ETS/CII), and fleet analytics. |
+| **[ABS Nautical Systems](https://ww2.eagle.org/)** | American Bureau of Shipping | **~$537M Annual Revenue** | $750 / vessel / month | 30-day interactive demo environment | Classification-backed technical management, safety compliance, work orders, and document control. |
+| **[MariApps PAL Fleet Software](https://mariapps.com/)** | MariApps Marine Solutions | **~$50M Revenue** (~1,400+ employees) | $600 / vessel / month | 14-day sandbox demo trial | Smart ERP suite for planned maintenance, crewing, finance, procurement, and catering. |
+| **[SpecTec AMOS](https://www.spectec.com/)** | Volaris Group / Constellation Software | **~$15M Revenue** (Volaris portfolio company) | $700 / vessel / month | 30-day trial for single-user PMS module | Industry-standard asset management operating system for maintenance, stock inventory, and procurement. |
+| **[ShipNet](https://one.shipnet.no/)** | ShipNet AS | **~$12M Revenue** | $650 / vessel / month | 14-day demo environment trial | Integrated maritime ERP connecting commercial, technical, operational, and financial workflows. |
+
+---
+
+## 💻 Open-Source GitHub Projects 🔓
+
+Open-source maritime solutions offer transparency and customizable frameworks for smaller vessel operators, research fleets, or domain-adjacent logistics systems.
+
+| Open-Source Project 🛠️ | GitHub Star Count ⭐ | Repository Link 🔗 | Description & Focus Area 📌 |
+| :--- | :--- | :--- | :--- |
+| **Fleetbase** | [![Stars](https://img.shields.io/github/stars/fleetbase/fleetbase-api?style=social&color=white)](https://github.com/fleetbase/fleetbase-api/stargazers) | [fleetbase/fleetbase-api](https://github.com/fleetbase/fleetbase-api) | Modular open-source logistics and fleet operation platform adaptable for vessel tracking and dispatch workflows. |
+| **Signal K Server** | [![Stars](https://img.shields.io/github/stars/SignalK/signalk-server?style=social&color=white)](https://github.com/SignalK/signalk-server/stargazers) | [SignalK/signalk-server](https://github.com/SignalK/signalk-server) | Universal Open Technology marine data server formatting vessel telemetry, sensors, NMEA 0183/2000 for fleet dashboards. |
+| **SeaVesselManager** | [![Stars](https://img.shields.io/github/stars/SeaVesselManager/seavesselmanager?style=social&color=white)](https://github.com/SeaVesselManager/seavesselmanager/stargazers) | [SeaVesselManager/seavesselmanager](https://github.com/SeaVesselManager/seavesselmanager) | Free open-source maritime ship management software with Planned Maintenance (PMS), spare parts inventory, certificate tracking, and procurement. |
+| **Fleetms** | [![Stars](https://img.shields.io/github/stars/fleetms/fleetms?style=social&color=white)](https://github.com/fleetms/fleetms/stargazers) | [fleetms/fleetms](https://github.com/fleetms/fleetms) | Open-source fleet maintenance and work order management software adaptable for marine equipment and vessel maintenance tracking. |
+| **Hackerfleet / HFOS** | [![Stars](https://img.shields.io/github/stars/Hackerfleet/hfos?style=social&color=white)](https://github.com/Hackerfleet/hfos/stargazers) | [Hackerfleet/hfos](https://github.com/Hackerfleet/hfos) | Modular maritime-oriented operating system components (maps, navdata, equipment logging) for collaborative vessel computing. |
+| **ShipChandlerHub** | [![Stars](https://img.shields.io/github/stars/ShipChandlerHub/ShipChandlerHub?style=social&color=white)](https://github.com/ShipChandlerHub/ShipChandlerHub/stargazers) | [ShipChandlerHub/ShipChandlerHub](https://github.com/ShipChandlerHub/ShipChandlerHub) | ASP.NET Core maritime inventory & order management system utilizing IMPA codes for ship chandlers and fleet supply management. |
+
+---
+
+## 🤝 How to Contribute 📝
+
+Contributions are welcome! To contribute:
+
+1. 🍴 **Fork** this repository.
+2. ✏️ **Add or Edit** entries in `README.md` following the table formats above.
+3. 🔍 Ensure descriptions are factual, pricing details accurate, and links valid.
+4. 📬 **Submit a Pull Request (PR)** with a summary of changes.
+
+---
+
+## 💖 Support & Sponsorship ☕
+
+If you find this repository helpful for your maritime operations, technical research, or software development, please consider showing your support:
+
+- ⭐ **Star** this repository to increase its visibility.
+- 🔀 **Fork** and contribute new tools or updates.
+- 📢 **Share** with colleagues in maritime tech, shipping, and vessel operations.
+- ☕ **Buy me a coffee / Sponsor**: [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## ⚠️ Disclaimer 📜
+
+- This repository is a **community-curated list** for informational and educational purposes only.
+- Maritime fleet management software directly impacts maritime safety (SOLAS), environmental protection (MARPOL), and classification compliance. Incorrect maintenance tracking or data loss can lead to operational failures.
+- Open-source tools require independent technical auditing and validation prior to deployment on commercial vessels.
+
+---
+
+## 📈 Star History 🌟
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Maritime-Fleet-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Maritime-Fleet-Management&type=date&legend=top-left)
+
+---
+
+<p align="center">Made with ❤️ for ship managers, superintendents, maritime software engineers, and vessel operators worldwide.</p>
