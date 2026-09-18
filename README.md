@@ -56,7 +56,7 @@ Commercial platforms dominate professional shipping, offering enterprise-grade p
 
 Open-source maritime solutions offer transparency and customizable frameworks for smaller vessel operators, research fleets, or domain-adjacent logistics systems.
 
-| Open-Source Project 🛠️ | GitHub Star Count ⭐ | Repository Link 🔗 | Description & Focus Area 📌 |
+| Open-Source Project 🛠️ | GitHub Stars_Count ⭐ | Repository Link 🔗 | Description & Focus Area 📌 |
 | :--- | :--- | :--- | :--- |
 | **Fleetbase** | [![Stars](https://img.shields.io/github/stars/fleetbase/fleetbase-api?style=social&color=white)](https://github.com/fleetbase/fleetbase-api/stargazers) | [fleetbase/fleetbase-api](https://github.com/fleetbase/fleetbase-api) | Modular open-source logistics and fleet operation platform adaptable for vessel tracking and dispatch workflows. |
 | **Signal K Server** | [![Stars](https://img.shields.io/github/stars/SignalK/signalk-server?style=social&color=white)](https://github.com/SignalK/signalk-server/stargazers) | [SignalK/signalk-server](https://github.com/SignalK/signalk-server) | Universal Open Technology marine data server formatting vessel telemetry, sensors, NMEA 0183/2000 for fleet dashboards. |
